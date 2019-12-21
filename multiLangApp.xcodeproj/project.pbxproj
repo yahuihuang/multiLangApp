@@ -14,6 +14,7 @@
 		65B72D6723AE07B30039A376 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65B72D6623AE07B30039A376 /* Assets.xcassets */; };
 		65B72D6A23AE07B30039A376 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65B72D6823AE07B30039A376 /* LaunchScreen.storyboard */; };
 		65B72D7A23AE0B810039A376 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65B72D7C23AE0B810039A376 /* Localizable.strings */; };
+		65B72D7F23AE10670039A376 /* utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B72D7E23AE10670039A376 /* utility.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		65B72D7123AE08920039A376 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
 		65B72D7B23AE0B810039A376 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		65B72D7D23AE0B880039A376 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		65B72D7E23AE10670039A376 /* utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = utility.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +70,7 @@
 				65B72D6623AE07B30039A376 /* Assets.xcassets */,
 				65B72D6823AE07B30039A376 /* LaunchScreen.storyboard */,
 				65B72D6B23AE07B30039A376 /* Info.plist */,
+				65B72D7E23AE10670039A376 /* utility.swift */,
 			);
 			path = multiLangApp;
 			sourceTree = "<group>";
@@ -145,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				65B72D7F23AE10670039A376 /* utility.swift in Sources */,
 				65B72D6223AE07B20039A376 /* ViewController.swift in Sources */,
 				65B72D5E23AE07B20039A376 /* AppDelegate.swift in Sources */,
 				65B72D6023AE07B20039A376 /* SceneDelegate.swift in Sources */,
